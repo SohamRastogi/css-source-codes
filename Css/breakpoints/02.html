@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Breakpoints</title>
+    <style>
+        body {
+            background-color: #1f1e1e;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background-color: #676464;
+            color: white;
+            padding: 20px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+        @media (max-width: 1000px) {
+            body {
+                align-items: flex-start;
+                
+            }
+            .container {
+                background-color: #b2e12f;
+                color: black;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 50px;
+            }
+        }
+        @media (min-width:1001px) and (max-width:1200px) {
+            body {
+            
+            }
+            .container {
+                background-color: #0befe7;
+                color: black;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 25px;
+            }
+        } 
+    </style>
+</head>
+<body>
+    <div class="container">
+        colorful changes in this div as per screen sizes. this is pixel perfect.
+    </div>
+</body>
+</html>

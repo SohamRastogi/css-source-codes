@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Styling</title>
+    <style>
+        .para1::after {
+            content: "  hello world";
+            color: brown;
+        }
+        .para2::before {
+            content: "you are boring  ";
+            color: blueviolet;
+        }
+        .para3::after {
+            content: "  it is very easy";
+            color: darkcyan;
+        }
+    </style>
+</head>
+<body>
+    <p class="para1">Here is some plain old boring text</p>
+    <p class="para2">Here is some normal text that is neither boring nor exciting</p>
+    <p class="para3">Contributing to MDN is easy and fun</p>
+</body>
+</html>

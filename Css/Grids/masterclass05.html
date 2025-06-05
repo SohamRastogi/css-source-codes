@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MasterClass 05</title>
+    <style>
+        body {
+            background-color: #bdb5b5;
+        }
+        .container {
+            padding: 10px;
+            background-color: #5f5b5b;
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            grid-template-rows: repeat(4,100px);
+            gap: 4px;
+        }
+        .item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            border: 1px solid black;
+            border-radius: 6px;
+        }
+        .item1 {
+            background-color: #34a1d3;
+            grid-row: 1/6;
+        }
+        .item21 {
+            background-color: #2fcf32;
+        }
+        .item22 {
+            background-color: #2fcf32;
+        }
+        .item23 {
+            background-color: #2fcf32;
+        }
+        .item24 {
+            background-color: #2fcf32;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item item1">1</div>
+        <div class="item item21">2.1</div>
+        <div class="item item22">2.2</div>
+        <div class="item item23">2.3</div>
+        <div class="item item24">2.4</div>
+    </div>
+</body>
+</html>

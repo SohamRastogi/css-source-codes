@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masterclass 06</title>
+    <style>
+        body {
+            background-color: #928d8d;
+        }
+        .container {
+            /* auto-fir in repeat gtc property, like fex-wrap: wrap; */
+            display: grid;
+            grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+            gap: 4px;
+            background-color: #595555;
+            padding: 10px;
+        }
+        .item {
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            height: 40px;
+            padding: 10px;
+            border-radius: 4px;
+            border: 1px solid black;
+        }
+        
+        .item1 {
+            background-color: rgb(46, 46, 175);
+        }
+        .item2 {
+            background-color: rgb(170, 36, 36);
+        }
+        .item3 {
+            background-color: rgb(46, 46, 175);
+        }
+        .item4 {
+            background-color: rgb(170, 36, 36)
+        }
+        .item5 {
+            background-color: rgb(46, 46, 175);
+        }
+        .item6 {
+            background-color: rgb(170, 36, 36)
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item item1">1</div>
+        <div class="item item2">2</div>
+        <div class="item item3">3</div>
+        <div class="item item4">4</div>
+        <div class="item item5">5</div>
+        <div class="item item6">6</div>
+    </div>
+</body>
+</html>

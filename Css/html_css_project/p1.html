@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee</title>
+    <style>
+        body {
+            background-color: #b5aeae;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 10px;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        img {
+            width: 350px;
+            height: 300px;
+            border-radius: 8px;
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            background-color: #625c5c;
+            padding: 20px;
+            border-radius: 12px;
+            width: 800px;
+            margin: 20px;
+            height: 300px;
+            
+        }
+        .image {
+            grid-column: 1/2;
+            grid-row: 1/5;
+            
+        }
+        .header {
+            grid-column: 2/3;
+            grid-row: 1/2;
+        }
+        .date {
+            margin-top: 1px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item image"><img src="/images/Coffee.png" alt="coffee"></div>
+        <div class="item header"><h2>Benefits of Drinking Coffee, Can Lower the Risk of Cancer to Stroke</h2></div>
+        <div class="item para"><p>Coffee is the most popular drink in the world and drinking coffee in the morning has become a routine for many people before their activities. Besides being considered to be able to provide energy intake, it turns out that the...</p></div>
+        <div class="item name"><h3>Josh Lane</h3></div>
+        <div class="item date">September 16th, 2024</div>
+    </div>
+</body>
+</html>

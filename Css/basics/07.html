@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problem 07</title>
+    <style>
+        .parent-container {
+            position: relative;
+        }
+        .parent-container .static-box {
+            background-color: blue;
+        }
+        .relative-box {
+            position: relative;
+            right: 50px;
+            bottom: 50px;
+            background-color: red;
+        }
+        .parent-container .absolute-box {
+            position: absolute;
+            top: 30px;
+            left: 30px;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent-container">
+        <div class="static-box">
+            static
+        </div>
+        <div class="relative-box">
+            relative
+        </div>
+        <div class="absolute-box">
+            absolute
+        </div>
+    </div>
+</body>
+</html>

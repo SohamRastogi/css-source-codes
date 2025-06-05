@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>example</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #8a8686;
+        }
+        .container {
+            border: 1px solid black;
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            transition: transform 1s;
+            ease-in-out;
+        }
+        .container:hover {
+            transform: skew(30deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        box1
+    </div>
+</body>
+</html>
